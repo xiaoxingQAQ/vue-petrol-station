@@ -1,0 +1,84 @@
+import Vue from 'vue'
+
+import {
+  Checkbox,
+  Select,
+  Option,
+  Button,
+  Tree,
+  DatePicker,
+  Slider,
+  Tabs,
+  TabPane,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Pagination,
+  TimePicker,
+  Input,
+  Dialog,
+  Form,
+  FormItem,
+  Message,
+  MessageBox,
+  InputNumber,
+  Radio,
+  Upload,
+  Image,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Popover,
+  OptionGroup,
+  Autocomplete,
+  CheckboxGroup,
+  Drawer,
+  Tooltip,
+  Notification,
+  Popconfirm,
+  Menu,
+  MenuItem,
+  Cascader,
+  Badge,
+} from 'element-ui';
+Vue.use(Badge)
+Vue.use(Cascader)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Popconfirm)
+Vue.use(Tooltip)
+Vue.use(Drawer)
+Vue.use(CheckboxGroup)
+Vue.use(Autocomplete)
+Vue.use(OptionGroup)
+Vue.use(Popover)
+Vue.use(Image)
+Vue.use(Upload)
+Vue.use(Radio)
+Vue.use(InputNumber)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Dialog)
+Vue.use(Input)
+Vue.use(TimePicker)
+Vue.use(Pagination)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(TabPane)
+Vue.use(Tabs)
+Vue.use(Slider)
+Vue.use(DatePicker)
+Vue.use(Tree)
+Vue.use(Button)
+Vue.use(Option)
+Vue.use(Select)
+Vue.use(Checkbox)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$notify = Notification
