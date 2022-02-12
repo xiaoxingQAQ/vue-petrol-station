@@ -8,7 +8,7 @@
       <div class="user-container">
         <div class="left">
           <span class="avatar-wrapper">
-            <img :src="avatar" alt="" />
+            <img :src="avatar" />
           </span>
         </div>
         <div class="right">
@@ -345,6 +345,7 @@ export default {
           justify-content: center;
           align-items: center;
           box-sizing: border-box;
+          padding: 0 10px;
           width: 118px;
           height: 30px;
 
