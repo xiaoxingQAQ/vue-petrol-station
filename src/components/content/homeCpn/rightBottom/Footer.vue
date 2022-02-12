@@ -183,8 +183,7 @@ export default {
         orgId: "103",
         stationName: "昌平西三旗加油站",
       }
-      // const message = `警报! ${obj.stationName + obj.cameraName}发生${this.setEventType(obj)}事件,请及时处理`;
-      const message = '康康 你胖了，康你胖了，你胖了哈哈哈'
+      const message = `警报! ${obj.stationName + obj.cameraName}发生${this.setEventType(obj)}事件,请及时处理`;
       this.handleSpeak(message);
 
       this.$bus.$emit('change_f', [obj]);
